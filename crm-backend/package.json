@@ -1,0 +1,31 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "CRM using React, GraphQL, Apollo Server and Next.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micke-paredes/crm.git"
+  },
+  "author": "Miguel Angel Paredes (Polaroid)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micke-paredes/crm/issues"
+  },
+  "homepage": "https://github.com/micke-paredes/crm#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
